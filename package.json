@@ -18,8 +18,14 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "classlist.js": "^1.1.20150312",
+    "core-js": "^3.33.0",
+    "intl": "^1.2.5",
+    "promise-polyfill": "^8.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "web-animations-js": "^2.3.2",
+    "whatwg-fetch": "^3.6.19",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
