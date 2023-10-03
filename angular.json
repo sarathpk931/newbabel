@@ -15,9 +15,9 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "customWebpackConfig": {
+            "customWebpackConfig":{
               "path": "./webpack.custom.js"
            },
            "indexTransform": "./index-html-transform.js",
