@@ -59,10 +59,21 @@
               "namedChunks": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "production",
+          "babel": {
+            "presets": [
+              "@babel/preset-env"
+            ],
+            "plugins": [
+             
+            ]
+          }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+           
+          },
           "configurations": {
             "production": {
               "browserTarget": "testapp:build:production"
