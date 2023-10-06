@@ -1,7 +1,7 @@
 {
   "browserslist": [
-    "last 100 versions",
-    "> 0%"
+    
+    "> 1%"
   ]
 ,
   "name": "testapp",
