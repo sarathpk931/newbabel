@@ -1,7 +1,7 @@
 {
   "browserslist": [
     "ie 11",
-  "last 1 version",
+  "last 2 version",
   "not dead"
   ],
   "name": "testapp",
